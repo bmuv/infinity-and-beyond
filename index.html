@@ -6,27 +6,51 @@
     <title>Infinity and Beyond</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #0a1128;
+            color: #e9ecef;
         }
         header {
-            background-color: #333;
+            background-color: #1c2541;
             color: white;
             text-align: center;
-            padding: 1em 0;
+            padding: 2em 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
         main {
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #1c2541;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         h1 {
-            color: #333;
+            color: #5bc0be;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h2 {
+            color: #6fffe9;
+            border-bottom: 2px solid #5bc0be;
+            padding-bottom: 10px;
         }
         p {
-            line-height: 1.6;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #6fffe9;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c2541;
+            margin-top: 30px;
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -37,7 +61,10 @@
     <main>
         <h2>Welcome to Our Space Adventure</h2>
         <p>This is a simple webpage about exploring the cosmos. The universe is vast and full of wonders waiting to be discovered.</p>
-        <p>Stay tuned for more content about stars, galaxies, and the mysteries of space!</p>
+        <p>Stay tuned for more content about <span class="highlight">stars</span>, <span class="highlight">galaxies</span>, and the <span class="highlight">mysteries of space</span>!</p>
     </main>
+    <footer>
+        &copy; 2025 Infinity and Beyond - Exploring the Cosmos
+    </footer>
 </body>
 </html>
